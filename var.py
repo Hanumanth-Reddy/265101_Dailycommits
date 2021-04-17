@@ -1,10 +1,3 @@
-print("Hello world!")
-print('hello')
-print(2+3)
-print(3//2)
-print(2/3)
-print(2**3)
-print(3 % 2)
-print(4.0+5)
-print(10**(1/2))
+user = "hanumanth"
+print("Hello, "+user)
 
