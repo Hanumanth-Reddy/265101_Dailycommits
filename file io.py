@@ -4,13 +4,13 @@
 
 # file must be opened before we edit it
 
-myfile = open("1.py")
+my_file = open("1.py")
 # argument of open fun is path to the file. if file is in PWD just specify name.
 
 # specify modes while opening a file like r, w, wb etc
 
-# w - write mode, r - readmode, a - append and adding "b" to mode opens file in binary mode.
-# which is used for non text files such as images and soundfiles
+# w - write mode, r - read mode, a - append and adding "b" to mode opens file in binary mode.
+# which is used for non text files such as images and sound files
 # r+ opens the file in read and write.
 #
 # file = open("1.py", "w")
@@ -34,7 +34,7 @@ myfile = open("1.py")
 # file.close()
 #
 # file = open("1.py","r")
-# print(file.read(16))   # read nuber of bytes
+# print(file.read(16))   # read number of bytes
 # print(file.read(4))
 # print(file.read(4))
 # print(file.read())  # print(file.read())
@@ -44,7 +44,7 @@ myfile = open("1.py")
 
 
 # after all the contents in a file have been read, any attempts to read further
-# from that file return an empty string as we trying to read fron EOF.
+# from that file return an empty string as we trying to read from EOF.
 
 # file = open("1.py", "r")
 # file.read()
@@ -66,7 +66,7 @@ myfile = open("1.py")
 
 
 # WRITING INTO FILES
-file = open("writetrial.txt","w")
+file = open("writetrial.txt", "w")
 file.write("How are u hanumanth")
 file.close()
 
