@@ -23,7 +23,7 @@ print(things[1])
 print(things[2][1])
 print(things[3])
 
-# nested loops can be used to represent 2d grids such as matrix
+# nested lists can be used to represent 2d grids such as matrix
 
 m = [
     [1, 2, 3],
@@ -93,4 +93,3 @@ letters.reverse()   # reverse items in a list
 print(letters)
 print(letters[-1])  # negative index means start from end
 print(letters[0:2])   # range end will not be counted
-
