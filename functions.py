@@ -1,7 +1,7 @@
 # functions
 # code reuse or recursion
 # for large programs follow DRY priciple don't repeat yourself ex: use of loops ad easy to maintain
-# repetitive code follows WET principle Write Everythig Twice
+# repetitive code follows WET principle Write Everything Twice
 
 # any statement that consits of of word followed by information in parentheses is a function call.
 
@@ -49,8 +49,7 @@ def fun(var):
 
 fun(7)
 
-
-# print(var) # error as accessiing out of scope variable
+# print(var) # error as accessing out of scope variable
 
 # returning from functions
 def max(x, y):
@@ -113,7 +112,8 @@ for i in range(5):
     print(value)
 
 for x in range(6):
-    if x == 3: break
+    if x == 3:
+        break
     print(x)
 else:
     print("Finally finished!")
