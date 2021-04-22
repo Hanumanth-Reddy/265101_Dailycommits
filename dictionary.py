@@ -1,6 +1,6 @@
 # dictionaries are data structures used to map arbitrary keys to values.
 # lists can be thought of as dictionaries with integer keys with in a certain range.
-# dictioaries ca e index with brakets containing keys.
+# dictionaries can have index with brackets containing keys.
 ages = {"dave": 24, "mary": 42, "john": 58}
 print(ages["dave"])
 print(ages["mary"])
@@ -25,11 +25,9 @@ print(primary["red"][0])
 #     [1,2,3]:"one two three"
 # }
 
-# just like lists, dictionary keys can be assigned to diffent values.
+# just like lists, dictionary keys can be assigned to different values.
 # however, unlike lists, a new dictionary key can can also assigned a value, not just ones that already exist.
-squares = {1: 1, 2: 4, 3: "error", 4: 16}
-squares[8] = 64
-squares[2] = 9
+squares = {1: 1, 2: 9, 3: "error", 4: 16, 8: 64}
 print(squares)
 
 # to determine whether a key is in a dict or not we can use in and not in, just like lists.
