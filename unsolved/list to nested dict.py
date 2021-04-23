@@ -1,2 +1,6 @@
-lis=[1,2,3,4,5,6,7,8,9]
-li= dict(lis)
+li = [{'name': 'a', 'grade': "I"}, {'name': 'b', 'grade': "II"}, {'name': 'c', 'grade': "III"}]
+print("input list=  ", li)
+di = {}
+for i in range(len(li)):
+    di['child' + str(i)] = li[i]
+print('output nested dict=  ', di)
